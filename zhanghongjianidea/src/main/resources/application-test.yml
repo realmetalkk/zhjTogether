@@ -1,0 +1,9 @@
+server:
+  port: 8088
+  
+spring:
+  profiles: test
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.zhhongjian.domain

@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: database,dev
+
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    database: 1
+    timeout: 300
+    jedis:
+      pool:
+        max-wait:
+        min-idle: 0
+        max-active=8: 8
+        max-idle: 500
+
