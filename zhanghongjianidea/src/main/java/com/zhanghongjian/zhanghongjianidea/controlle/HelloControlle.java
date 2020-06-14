@@ -37,7 +37,7 @@ public class HelloControlle {
     @ResponseBody
     public String zhuye(){
         this.prin();
-        return "zhuqqq分支1ye";
+        return "zhuqqq分支1ye32";
 
     }
 
